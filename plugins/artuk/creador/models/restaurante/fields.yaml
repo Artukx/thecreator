@@ -1,0 +1,126 @@
+fields:
+    nombre:
+        label: Nombre
+        span: auto
+        type: text
+    lema:
+        label: Lema
+        span: auto
+        type: textarea
+    telefono:
+        label: Telefono
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    direccion:
+        label: Direccion
+        span: auto
+        type: text
+    horario:
+        label: Horario
+        span: auto
+        type: textarea
+    id_carta:
+        label: 'Id carta'
+        span: auto
+        type: number
+    descripcion:
+        label: Descripcion
+        span: auto
+        type: textarea
+    instagram:
+        label: Instagram
+        span: auto
+        type: text
+    facebook:
+        label: Facebook
+        span: auto
+        type: text
+    url:
+        label: url
+        span: auto
+        type: text
+    logo:
+        label: Logo
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    logo_mini:
+        label: Logo_mini
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    titulo1:
+        label: Fachada
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    titulo2:
+        label: Reserva
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    titulo3:
+        label: 'Nuestas Especialidades BG'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    titulo4:
+        label: 'Carta BG'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    cartapdf:
+        label: 'Carta PDF'
+        span: auto
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
+    color1:
+        label: Color1
+        allowEmpty: true
+        allowCustom: true
+        span: auto
+        type: colorpicker
+    color2:
+        label: Color2
+        allowEmpty: true
+        allowCustom: true
+        span: auto
+        type: colorpicker
+    color3:
+        label: Color3
+        span: auto
+        allowEmpty: true
+        allowCustom: true
+        type: colorpicker

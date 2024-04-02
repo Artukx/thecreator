@@ -1,0 +1,12 @@
+list: $/artuk/creador/models/especialidades/columns.yaml
+modelClass: Artuk\Creador\Models\Especialidades
+title: Especialidades
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'artuk/creador/especialidades/update/:id'

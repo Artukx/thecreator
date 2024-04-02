@@ -1,0 +1,13 @@
+fields:
+    id:
+        label: Id
+        span: auto
+        type: number
+    nombre:
+        label: Nombre
+        span: auto
+        type: text
+    precio:
+        label: Precio
+        span: auto
+        type: number

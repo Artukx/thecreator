@@ -1,0 +1,23 @@
+fields:
+    nombre:
+        label: Nombre
+        span: auto
+        type: text
+    esp_img:
+        label: Esp_img
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    restaurante_id:
+        label: Restaurante_id
+        span: auto
+        type: number
+    descripcion:
+        label: Descripcion
+        span: auto
+        size: ''
+        type: textarea

@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: id
+        type: number
+    restaurante_id:
+        label: restaurante_id
+        type: number
+    nombre:
+        label: nombre
+        type: text
+    descripcion:
+        label: descripcion
+        type: text

@@ -1,0 +1,9 @@
+fields:
+    id:
+        label: Id
+        span: auto
+        type: number
+    nombre:
+        label: Nombre
+        span: auto
+        type: text

@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-container img {
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    font-weight: 600;
+
+}
+
+.menu .navbar ul li button {
+    width: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt img {
+    height: 400px;
+}
+
+.header-txt{
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header-txt p {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.information-content {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -50px;
+}
+
+.information-1 {
+    flex-basis: 30%;
+}
+
+.information-c1 {
+    padding: 45px;
+    text-align: center;
+    height: 300px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+}
+
+.information-2 {
+    flex-basis: 70%;
+}
+
+.information-b1 {
+    height: 300px;
+}
+
+.information-a1 {
+    height: 300px;
+}
+
+.information-b1 img {
+    height: 300px;
+    width: 100%;
+}
+
+.information-a1 img {
+    height: 300px;
+    width: 100%;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+.our h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ofert-content {
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -50px;
+}
+
+.ofert-1 {
+    flex-basis: 25%;
+}
+
+.ofert-txt {
+    padding: 41px;
+    text-align: center;
+    height: 230px;
+}
+
+.ofert-img {
+    height: 230px;
+}
+
+.ofert-img img {
+    height: 230px;
+    width: 100%;
+}
+
+.food {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.food h2 {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+}
+
+.food span {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.food-content {
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer {
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.link ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link ul li {
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.link a {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.link img {
+    width: 30px;
+}
+
+.circle-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.circle-arrow:hover {
+    filter: brightness(75%);
+}
+
+.circle-arrow svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+@media (max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .information-c1{
+        height: 100%;
+    }
+
+    .header-txt img {
+        height: 100%;
+    }
+
+    .information-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .our {
+        margin-top: 0;
+        padding: 150px 30px;
+    }
+
+    .information-2 {
+        padding-bottom: 35px;
+    }
+
+    .ofert-content {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ofert-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .ofert-img {
+        order: 2;
+        margin-bottom: 25px;
+    }
+
+    .ofert-img img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .bg {
+        margin-top: 0;
+    }
+
+    .food {
+        padding: 30px;
+    }
+
+    .food-content {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .food-1 {
+        margin: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        flex-direction: column;
+    }
+
+    .link ul li {
+        margin: 0 0 15px 0;
+    }
+
+
+}

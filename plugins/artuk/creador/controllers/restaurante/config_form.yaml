@@ -1,0 +1,10 @@
+name: Restaurante
+form: $/artuk/creador/models/restaurante/fields.yaml
+modelClass: Artuk\Creador\Models\Restaurante
+defaultRedirect: artuk/creador/restaurante
+create:
+    redirect: 'artuk/creador/restaurante/update/:id'
+    redirectClose: artuk/creador/restaurante
+update:
+    redirect: artuk/creador/restaurante
+    redirectClose: artuk/creador/restaurante

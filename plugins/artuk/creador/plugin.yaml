@@ -1,0 +1,23 @@
+plugin:
+    name: 'artuk.creador::lang.plugin.name'
+    description: 'artuk.creador::lang.plugin.description'
+    author: artuk
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: restaurante
+        url: artuk/creador/restaurante
+        icon: icon-beer
+    main-menu-item3:
+        label: especialidades
+        url: artuk/creador/especialidades
+        icon: icon-star
+    main-menu-item4:
+        label: carta
+        url: artuk/creador/carta
+        icon: icon-tablet
+    main-menu-item5:
+        label: cat_carta
+        url: artuk/creador/cat_carta
+        icon: icon-archive

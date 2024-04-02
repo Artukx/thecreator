@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {{ restaurante.nombre }} </title>
+    <link rel="icon" type="image/png" href="{{ restaurante.logo_mini.0.thumb(auto, auto) }}">
+    <link href="{{'assets/css/style.css' | theme }}" rel="stylesheet">
+
+    <style>
+
+        :root {
+            --color-primario: {{ restaurante.color1 }};
+            --color-secundario: {{ restaurante.color2 }};
+            --color-terciario: {{ restaurante.color3 }};
+        }
+
+        .our {
+        margin-top: -50px;
+        padding: 250px 0;
+        background: linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+        url("{{ restaurante.titulo3.0.thumb(auto, auto) }}");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .bg {
+        background: linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+        url("{{ restaurante.titulo4.0.thumb(auto, auto) }}");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        margin-top: -50px;
+    }
+
+    body,header,.footer {
+        background-color: var(--color-primario);
+    }
+
+    .circle-arrow {
+        background-color: var(--color-secundario);
+    }
+
+    .link a:hover, .food h2, h3, .header-txt p, .header-txt h1, .menu .navbar ul li a:hover, .instagram-container a:hover{
+        color: var(--color-secundario);
+    }
+
+    .btn-1{
+        color: var(--color-secundario);
+        border: 2px solid var(--color-secundario);
+    }
+
+    .instagram-container a, .menu .navbar ul li a, .food span, .link a {
+        color: var(--color-terciario);
+    }
+
+    .information-c1, .ofert-txt {
+        background-color: var(--color-terciario);
+    }
+
+    @media (max-width:991px) {
+
+        .menu .navbar{
+            background-color: var(--color-secundario);
+        }
+
+        .menu .navbar ul li a:hover {
+            filter: brightness(50%);
+        }
+
+        .ofert-1 {
+            background-color: var(--color-terciario);
+        }
+    }
+    </style>
+
+    <script src="funciones.js"></script>
+</head>
+<body>
+{%page%}
+</body>
+</html>

@@ -1,0 +1,10 @@
+name: Especialidades
+form: $/artuk/creador/models/especialidades/fields.yaml
+modelClass: Artuk\Creador\Models\Especialidades
+defaultRedirect: artuk/creador/especialidades
+create:
+    redirect: 'artuk/creador/especialidades/update/:id'
+    redirectClose: artuk/creador/especialidades
+update:
+    redirect: artuk/creador/especialidades
+    redirectClose: artuk/creador/especialidades

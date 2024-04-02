@@ -1,0 +1,10 @@
+name: Carta
+form: $/artuk/creador/models/carta/fields.yaml
+modelClass: Artuk\Creador\Models\Carta
+defaultRedirect: artuk/creador/carta
+create:
+    redirect: 'artuk/creador/carta/update/:id'
+    redirectClose: artuk/creador/carta
+update:
+    redirect: artuk/creador/carta
+    redirectClose: artuk/creador/carta

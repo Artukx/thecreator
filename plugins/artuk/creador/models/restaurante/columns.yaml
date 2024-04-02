@@ -1,0 +1,49 @@
+columns:
+    id:
+        label: id
+        type: number
+    nombre:
+        label: nombre
+        type: text
+    lema:
+        label: lema
+        type: text
+    telefono:
+        label: telefono
+        type: text
+    email:
+        label: email
+        type: text
+    id_logo:
+        label: id_logo
+        type: number
+    direccion:
+        label: direccion
+        type: text
+    horario:
+        label: horario
+        type: text
+    id_carta:
+        label: id_carta
+        type: number
+    descripcion:
+        label: descripcion
+        type: text
+    instagram:
+        label: instagram
+        type: text
+    facebook:
+        label: facebook
+        type: text
+    url:
+        label: url
+        type: text
+    color1:
+        label: color1
+        type: text
+    color2:
+        label: color2
+        type: text
+    color3:
+        label: color3
+        type: text

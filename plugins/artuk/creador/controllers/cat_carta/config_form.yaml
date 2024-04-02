@@ -1,0 +1,10 @@
+name: Cat_carta
+form: $/artuk/creador/models/cat_carta/fields.yaml
+modelClass: Artuk\Creador\Models\Cat_carta
+defaultRedirect: artuk/creador/cat_carta
+create:
+    redirect: 'artuk/creador/cat_carta/update/:id'
+    redirectClose: artuk/creador/cat_carta
+update:
+    redirect: artuk/creador/cat_carta
+    redirectClose: artuk/creador/cat_carta
